@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    padding: 6%;
+    justify-content: center;
+    align-items: right;
+}
+.nav img{
+    width: 152px;
+    height: 100px;
+    left: 37px;
+    position: absolute;
+}
+.nav{
+    flex: 1;
+    text-align: center;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 14px;
+    position: relative;
+    text-align: center;
+} 
+.nav a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    width: 124px;
+    display: inline-block;
+    padding: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav a:hover{
+    background-color: rgba(31, 229, 19, 0.6);
+}
+
+
+body{
+    font-family: 'bernard-mt-condensed-regular', sans-serif;
+    font-size: 16px;  
+    background: linear-gradient(270deg, rgba(19, 230, 192, 0.7) 2.94%, rgba(54, 198, 172, 0) 122.95%), url(img.bgd.png);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.container{
+    margin: 4px 2cm;
+}
+.title.sec{
+    width: 90%;
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.title.sec h1{
+    font-size: 119px;
+    text-transform: capitalize;
+    font-weight: 400;
+    line-height: 144px;
+    background: url(img.bgd.png);
+    text-align: center;
+    position: absolute;
+    font-family: 'Bernard MT Condense';
+    justify-content: center;
+}
+.title.sec a{
+    font-weight: 500;
+    position: absolute;
+font-size: 20px;
+color: black;
+text-transform: lowercase;
+text-decoration: none;
+}
+.subtitle-sec{
+    position: absolute;
+    width: 849px;
+    height: 297px;
+    left: 28px;
+    text-align: center;
+    justify-content: center;
+
+}
+.image1{
+    position: absolute; 
+}
+
+.description{
+    position: absolute;
+    bottom: 6;
+    display: grid;
+    grid-template-columns: 7;
+}
+.description.description text{
+    font-weight: 400;
+    font-size: 64px;
+    color: rgba(60, 67, 72, 0.75);
+    border-left: 147px solid black;
+}
+.subtext-description{
+    position: absolute;
+    font-family: 'Inter';
+    font-size: 87px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    justify-content: baseline;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
